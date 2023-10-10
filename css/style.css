@@ -1,0 +1,85 @@
+body {
+	color: #434455;
+	font-family: "Roboto", "Raleway" sans-serif;
+	background-color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 2%;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-title {
+	color: #ffffff;
+	font-size: 56px;
+	font-weight: bold;
+	line-height: 1.07;
+	background-color: #2e2f42;
+	text-align: center;
+}
+
+.main-button {
+	color: #ffffff;
+	background-color: #4d5aE5;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 4%;
+}
+
+.main-button:hover,
+.main-button:focus {
+	background-color: #404bbf;
+}
+
+.nav-link:active {
+	color: #404bbf;
+}
+
+.address:active {
+	color: #404bbf;
+}
+
+
+.section-title {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.person-title {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.product-title {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.nav-link {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.25;
+	letter-spacing: 4%;
+	text-decoration: underline;
+}
+
+.footer {
+	background-color: #2e2f42;
+}
+
+.footer-desc {
+	color: #f4f4fd;
+}
+
+.section-person {
+	background-color: #f4f4fd;
+}
