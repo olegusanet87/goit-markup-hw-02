@@ -1,20 +1,25 @@
 body {
 	color: #434455;
-	font-family: "Roboto", "Raleway" sans-serif;
+	font-family: "Roboto", sans-serif;
 	background-color: #ffffff;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 
 }
 
-ul {
+ul,
+ol {
 	list-style-type: none;
 }
 
 a {
 	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
 }
 
 .main-title {
@@ -29,10 +34,10 @@ a {
 .main-button {
 	color: #ffffff;
 	background-color: #4d5aE5;
-	cursor: pointer;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 4%;
+	letter-spacing: 0.04em;
+	;
 }
 
 .main-button:hover,
@@ -40,18 +45,66 @@ a {
 	background-color: #404bbf;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+	color: #404bbf;
+}
+
 .nav-link:active {
+	text-decoration: underline;
+}
+
+.logo {
+	color: #2E2F42;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.logo-span {
+	color: #4D5AE5;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.nav-link {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	color: #2e2f42;
+}
+
+.address:hover,
+.address:focus {
 	color: #404bbf;
 }
 
-.address:active {
-	color: #404bbf;
+.address {
+	color: #434455;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
 }
-
 
 .section-title {
+	text-align: center;
 	font-size: 36px;
-	font-weight: bold;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.11;
+	text-transform: capitalize;
 }
 
 .person-title {
@@ -60,20 +113,33 @@ a {
 }
 
 .product-title {
+	font-family: Roboto;
 	font-size: 20px;
-	font-weight: 400;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
-.nav-link {
+.menu {
 	font-size: 12px;
 	font-weight: 500;
 	line-height: 1.25;
-	letter-spacing: 4%;
-	text-decoration: underline;
+	letter-spacing: 0.04em;
 }
 
-.footer {
+.main-footer {
 	background-color: #2e2f42;
+}
+
+.footer-link {
+	color: #F4F4FD;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 .footer-desc {
