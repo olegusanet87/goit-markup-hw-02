@@ -62,7 +62,7 @@ button {
 	color: #4D5AE5;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
-	font-style: normal;
+
 	font-weight: 700;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
@@ -72,7 +72,7 @@ button {
 .logo-span {
 	color: #2e2f42;
 	font-size: 18px;
-	font-style: normal;
+
 	font-weight: 700;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
@@ -81,7 +81,7 @@ button {
 
 .nav-link {
 	font-size: 16px;
-	font-style: normal;
+
 	font-weight: 500;
 	line-height: 24px;
 	letter-spacing: 0.02em;
