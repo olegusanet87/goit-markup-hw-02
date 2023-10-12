@@ -89,14 +89,11 @@ button {
 }
 
 .email:hover:hover,
-.email:focus,
-.tel:hover,
-.tel:focus {
+.email:focus {
 	color: #404bbf;
 }
 
-.email,
-.tel {
+.email {
 	color: #434455;
 }
 
@@ -133,6 +130,10 @@ button {
 	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	background-color: #ffffff;
+}
+
+.person-list {
 	background-color: #ffffff;
 }
 
